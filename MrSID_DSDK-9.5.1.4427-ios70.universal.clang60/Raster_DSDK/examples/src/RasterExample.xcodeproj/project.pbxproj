@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8154DD0214BFAA5B00DE7A22 /* DecodeJP2ToBBB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCE514BFAA5B00DE7A22 /* DecodeJP2ToBBB.cpp */; };
+		8154DD0314BFAA5B00DE7A22 /* DecodeJP2ToJPG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCE614BFAA5B00DE7A22 /* DecodeJP2ToJPG.cpp */; };
+		8154DD0414BFAA5B00DE7A22 /* DecodeJP2ToMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCE714BFAA5B00DE7A22 /* DecodeJP2ToMemory.cpp */; };
+		8154DD0514BFAA5B00DE7A22 /* DecodeMrSIDLidar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCE814BFAA5B00DE7A22 /* DecodeMrSIDLidar.cpp */; };
+		8154DD0614BFAA5B00DE7A22 /* DecodeMrSIDToMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCE914BFAA5B00DE7A22 /* DecodeMrSIDToMemory.cpp */; };
+		8154DD0714BFAA5B00DE7A22 /* DecodeMrSIDToRaw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCEA14BFAA5B00DE7A22 /* DecodeMrSIDToRaw.cpp */; };
+		8154DD0814BFAA5B00DE7A22 /* DecodeMrSIDToTIFF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCEB14BFAA5B00DE7A22 /* DecodeMrSIDToTIFF.cpp */; };
+		8154DD0914BFAA5B00DE7A22 /* DecodeNITFToBBB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCEC14BFAA5B00DE7A22 /* DecodeNITFToBBB.cpp */; };
+		8154DD0A14BFAA5B00DE7A22 /* DerivedImageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCED14BFAA5B00DE7A22 /* DerivedImageFilter.cpp */; };
+		8154DD0B14BFAA5B00DE7A22 /* DerivedImageReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCEE14BFAA5B00DE7A22 /* DerivedImageReader.cpp */; };
+		8154DD0C14BFAA5B00DE7A22 /* DerivedImageWriter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCEF14BFAA5B00DE7A22 /* DerivedImageWriter.cpp */; };
+		8154DD0D14BFAA5B00DE7A22 /* DerivedStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCF014BFAA5B00DE7A22 /* DerivedStream.cpp */; };
+		8154DD0E14BFAA5B00DE7A22 /* ErrorHandling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCF114BFAA5B00DE7A22 /* ErrorHandling.cpp */; };
+		8154DD0F14BFAA5B00DE7A22 /* GeoScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCF214BFAA5B00DE7A22 /* GeoScene.cpp */; };
+		8154DD1014BFAA5B00DE7A22 /* ImageInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCF314BFAA5B00DE7A22 /* ImageInfo.cpp */; };
+		8154DD1114BFAA5B00DE7A22 /* InterruptDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCF414BFAA5B00DE7A22 /* InterruptDelegate.cpp */; };
+		8154DD1314BFAA5B00DE7A22 /* MetadataDump.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCF714BFAA5B00DE7A22 /* MetadataDump.cpp */; };
+		8154DD1414BFAA5B00DE7A22 /* Mosaic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCF814BFAA5B00DE7A22 /* Mosaic.cpp */; };
+		8154DD1514BFAA5B00DE7A22 /* Pipeline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCF914BFAA5B00DE7A22 /* Pipeline.cpp */; };
+		8154DD1614BFAA5B00DE7A22 /* ProgressDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCFA14BFAA5B00DE7A22 /* ProgressDelegate.cpp */; };
+		8154DD1714BFAA5B00DE7A22 /* SceneBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCFB14BFAA5B00DE7A22 /* SceneBuffer.cpp */; };
+		8154DD1814BFAA5B00DE7A22 /* support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCFC14BFAA5B00DE7A22 /* support.cpp */; };
+		8154DD1914BFAA5B00DE7A22 /* UserTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCFE14BFAA5B00DE7A22 /* UserTest.cpp */; };
+		8154DD1A14BFAA5B00DE7A22 /* UsingCInterface.c in Sources */ = {isa = PBXBuildFile; fileRef = 8154DCFF14BFAA5B00DE7A22 /* UsingCInterface.c */; };
+		8154DD1B14BFAA5B00DE7A22 /* UsingCStream.c in Sources */ = {isa = PBXBuildFile; fileRef = 8154DD0014BFAA5B00DE7A22 /* UsingCStream.c */; };
+		8154DD1C14BFAA5B00DE7A22 /* UsingStreams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8154DD0114BFAA5B00DE7A22 /* UsingStreams.cpp */; };
+		8154DD1F14BFAB0900DE7A22 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8154DD1E14BFAB0900DE7A22 /* ViewController.mm */; };
+		8154DD2914BFB86100DE7A22 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 8154DD2814BFB86100DE7A22 /* data */; };
+		81ADDB7A1671386A00BC7798 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81ADDB791671386A00BC7798 /* libiconv.dylib */; };
+		81C6920914C0D49A00669F3F /* libltidsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C6920814C0D49A00669F3F /* libltidsdk.a */; };
+		81C6921314C0E80E00669F3F /* libgdal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C6921214C0E80E00669F3F /* libgdal.a */; };
+		81D78C0014BFA79400F9D78B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D78BFF14BFA79400F9D78B /* UIKit.framework */; };
+		81D78C0214BFA79400F9D78B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D78C0114BFA79400F9D78B /* Foundation.framework */; };
+		81D78C0414BFA79400F9D78B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D78C0314BFA79400F9D78B /* CoreGraphics.framework */; };
+		81D78C0A14BFA79400F9D78B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81D78C0814BFA79400F9D78B /* InfoPlist.strings */; };
+		81D78C0C14BFA79400F9D78B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D78C0B14BFA79400F9D78B /* main.m */; };
+		81D78C1014BFA79500F9D78B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D78C0F14BFA79500F9D78B /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8154DCE514BFAA5B00DE7A22 /* DecodeJP2ToBBB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DecodeJP2ToBBB.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCE614BFAA5B00DE7A22 /* DecodeJP2ToJPG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DecodeJP2ToJPG.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCE714BFAA5B00DE7A22 /* DecodeJP2ToMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DecodeJP2ToMemory.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCE814BFAA5B00DE7A22 /* DecodeMrSIDLidar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DecodeMrSIDLidar.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCE914BFAA5B00DE7A22 /* DecodeMrSIDToMemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DecodeMrSIDToMemory.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCEA14BFAA5B00DE7A22 /* DecodeMrSIDToRaw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DecodeMrSIDToRaw.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCEB14BFAA5B00DE7A22 /* DecodeMrSIDToTIFF.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DecodeMrSIDToTIFF.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCEC14BFAA5B00DE7A22 /* DecodeNITFToBBB.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DecodeNITFToBBB.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCED14BFAA5B00DE7A22 /* DerivedImageFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DerivedImageFilter.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCEE14BFAA5B00DE7A22 /* DerivedImageReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DerivedImageReader.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCEF14BFAA5B00DE7A22 /* DerivedImageWriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DerivedImageWriter.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCF014BFAA5B00DE7A22 /* DerivedStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DerivedStream.cpp; sourceTree = SOURCE_ROOT; };
+		8154DCF114BFAA5B00DE7A22 /* ErrorHandling.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ErrorHandling.cpp; sourceTree = SOURCE_ROOT; };
+		8154DCF214BFAA5B00DE7A22 /* GeoScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = GeoScene.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCF314BFAA5B00DE7A22 /* ImageInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImageInfo.cpp; sourceTree = SOURCE_ROOT; };
+		8154DCF414BFAA5B00DE7A22 /* InterruptDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InterruptDelegate.cpp; sourceTree = SOURCE_ROOT; };
+		8154DCF614BFAA5B00DE7A22 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = SOURCE_ROOT; };
+		8154DCF714BFAA5B00DE7A22 /* MetadataDump.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MetadataDump.cpp; sourceTree = SOURCE_ROOT; };
+		8154DCF814BFAA5B00DE7A22 /* Mosaic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = Mosaic.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCF914BFAA5B00DE7A22 /* Pipeline.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = Pipeline.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		8154DCFA14BFAA5B00DE7A22 /* ProgressDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProgressDelegate.cpp; sourceTree = SOURCE_ROOT; };
+		8154DCFB14BFAA5B00DE7A22 /* SceneBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneBuffer.cpp; sourceTree = SOURCE_ROOT; };
+		8154DCFC14BFAA5B00DE7A22 /* support.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = support.cpp; sourceTree = SOURCE_ROOT; };
+		8154DCFD14BFAA5B00DE7A22 /* support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = support.h; sourceTree = SOURCE_ROOT; };
+		8154DCFE14BFAA5B00DE7A22 /* UserTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserTest.cpp; sourceTree = SOURCE_ROOT; };
+		8154DCFF14BFAA5B00DE7A22 /* UsingCInterface.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UsingCInterface.c; sourceTree = SOURCE_ROOT; };
+		8154DD0014BFAA5B00DE7A22 /* UsingCStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = UsingCStream.c; sourceTree = SOURCE_ROOT; };
+		8154DD0114BFAA5B00DE7A22 /* UsingStreams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UsingStreams.cpp; sourceTree = SOURCE_ROOT; };
+		8154DD1D14BFAB0900DE7A22 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ios/ViewController.h; sourceTree = SOURCE_ROOT; };
+		8154DD1E14BFAB0900DE7A22 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ViewController.mm; path = ios/ViewController.mm; sourceTree = SOURCE_ROOT; };
+		8154DD2814BFB86100DE7A22 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../data; sourceTree = SOURCE_ROOT; };
+		81ADDB791671386A00BC7798 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		81C6920814C0D49A00669F3F /* libltidsdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libltidsdk.a; path = ../../lib/libltidsdk.a; sourceTree = SOURCE_ROOT; };
+		81C6921214C0E80E00669F3F /* libgdal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgdal.a; path = "../../3rd-party/lib/libgdal.a"; sourceTree = SOURCE_ROOT; };
+		81D78BFB14BFA79400F9D78B /* RasterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RasterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D78BFF14BFA79400F9D78B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81D78C0114BFA79400F9D78B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81D78C0314BFA79400F9D78B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81D78C0714BFA79400F9D78B /* RasterExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RasterExample-Info.plist"; path = "ios/RasterExample-Info.plist"; sourceTree = SOURCE_ROOT; };
+		81D78C0914BFA79400F9D78B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81D78C0B14BFA79400F9D78B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ios/main.m; sourceTree = SOURCE_ROOT; };
+		81D78C0D14BFA79400F9D78B /* RasterExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RasterExample-Prefix.pch"; path = "ios/RasterExample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		81D78C0E14BFA79500F9D78B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ios/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		81D78C0F14BFA79500F9D78B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ios/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81D78BF814BFA79400F9D78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C6921314C0E80E00669F3F /* libgdal.a in Frameworks */,
+				81C6920914C0D49A00669F3F /* libltidsdk.a in Frameworks */,
+				81ADDB7A1671386A00BC7798 /* libiconv.dylib in Frameworks */,
+				81D78C0014BFA79400F9D78B /* UIKit.framework in Frameworks */,
+				81D78C0214BFA79400F9D78B /* Foundation.framework in Frameworks */,
+				81D78C0414BFA79400F9D78B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8154DCE314BFA9E400DE7A22 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8154DCF614BFAA5B00DE7A22 /* main.h */,
+				8154DCFD14BFAA5B00DE7A22 /* support.h */,
+				8154DCFC14BFAA5B00DE7A22 /* support.cpp */,
+				8154DCE514BFAA5B00DE7A22 /* DecodeJP2ToBBB.cpp */,
+				8154DCE614BFAA5B00DE7A22 /* DecodeJP2ToJPG.cpp */,
+				8154DCE714BFAA5B00DE7A22 /* DecodeJP2ToMemory.cpp */,
+				8154DCE814BFAA5B00DE7A22 /* DecodeMrSIDLidar.cpp */,
+				8154DCE914BFAA5B00DE7A22 /* DecodeMrSIDToMemory.cpp */,
+				8154DCEA14BFAA5B00DE7A22 /* DecodeMrSIDToRaw.cpp */,
+				8154DCEB14BFAA5B00DE7A22 /* DecodeMrSIDToTIFF.cpp */,
+				8154DCEC14BFAA5B00DE7A22 /* DecodeNITFToBBB.cpp */,
+				8154DCED14BFAA5B00DE7A22 /* DerivedImageFilter.cpp */,
+				8154DCEE14BFAA5B00DE7A22 /* DerivedImageReader.cpp */,
+				8154DCEF14BFAA5B00DE7A22 /* DerivedImageWriter.cpp */,
+				8154DCF014BFAA5B00DE7A22 /* DerivedStream.cpp */,
+				8154DCF114BFAA5B00DE7A22 /* ErrorHandling.cpp */,
+				8154DCF214BFAA5B00DE7A22 /* GeoScene.cpp */,
+				8154DCF314BFAA5B00DE7A22 /* ImageInfo.cpp */,
+				8154DCF414BFAA5B00DE7A22 /* InterruptDelegate.cpp */,
+				8154DCF714BFAA5B00DE7A22 /* MetadataDump.cpp */,
+				8154DCF814BFAA5B00DE7A22 /* Mosaic.cpp */,
+				8154DCF914BFAA5B00DE7A22 /* Pipeline.cpp */,
+				8154DCFA14BFAA5B00DE7A22 /* ProgressDelegate.cpp */,
+				8154DCFB14BFAA5B00DE7A22 /* SceneBuffer.cpp */,
+				8154DCFE14BFAA5B00DE7A22 /* UserTest.cpp */,
+				8154DCFF14BFAA5B00DE7A22 /* UsingCInterface.c */,
+				8154DD0014BFAA5B00DE7A22 /* UsingCStream.c */,
+				8154DD0114BFAA5B00DE7A22 /* UsingStreams.cpp */,
+			);
+			name = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		81D78BF014BFA79400F9D78B = {
+			isa = PBXGroup;
+			children = (
+				81ADDB791671386A00BC7798 /* libiconv.dylib */,
+				8154DD2814BFB86100DE7A22 /* data */,
+				8154DCE314BFA9E400DE7A22 /* src */,
+				81D78C0514BFA79400F9D78B /* ios */,
+				81D78BFE14BFA79400F9D78B /* Frameworks */,
+				81D78BFC14BFA79400F9D78B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81D78BFC14BFA79400F9D78B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81D78BFB14BFA79400F9D78B /* RasterExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81D78BFE14BFA79400F9D78B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81C6920814C0D49A00669F3F /* libltidsdk.a */,
+				81C6921214C0E80E00669F3F /* libgdal.a */,
+				81D78BFF14BFA79400F9D78B /* UIKit.framework */,
+				81D78C0114BFA79400F9D78B /* Foundation.framework */,
+				81D78C0314BFA79400F9D78B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81D78C0514BFA79400F9D78B /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				81D78C0E14BFA79500F9D78B /* AppDelegate.h */,
+				81D78C0F14BFA79500F9D78B /* AppDelegate.m */,
+				8154DD1D14BFAB0900DE7A22 /* ViewController.h */,
+				8154DD1E14BFAB0900DE7A22 /* ViewController.mm */,
+				81D78C0614BFA79400F9D78B /* Supporting Files */,
+			);
+			name = ios;
+			path = RasterExample;
+			sourceTree = SOURCE_ROOT;
+		};
+		81D78C0614BFA79400F9D78B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81D78C0714BFA79400F9D78B /* RasterExample-Info.plist */,
+				81D78C0814BFA79400F9D78B /* InfoPlist.strings */,
+				81D78C0B14BFA79400F9D78B /* main.m */,
+				81D78C0D14BFA79400F9D78B /* RasterExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81D78BFA14BFA79400F9D78B /* RasterExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D78C1314BFA79500F9D78B /* Build configuration list for PBXNativeTarget "RasterExample" */;
+			buildPhases = (
+				81D78BF714BFA79400F9D78B /* Sources */,
+				81D78BF814BFA79400F9D78B /* Frameworks */,
+				81D78BF914BFA79400F9D78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RasterExample;
+			productName = RasterExample;
+			productReference = 81D78BFB14BFA79400F9D78B /* RasterExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81D78BF214BFA79400F9D78B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = LizardTech;
+			};
+			buildConfigurationList = 81D78BF514BFA79400F9D78B /* Build configuration list for PBXProject "RasterExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81D78BF014BFA79400F9D78B;
+			productRefGroup = 81D78BFC14BFA79400F9D78B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81D78BFA14BFA79400F9D78B /* RasterExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81D78BF914BFA79400F9D78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D78C0A14BFA79400F9D78B /* InfoPlist.strings in Resources */,
+				8154DD2914BFB86100DE7A22 /* data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81D78BF714BFA79400F9D78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D78C0C14BFA79400F9D78B /* main.m in Sources */,
+				81D78C1014BFA79500F9D78B /* AppDelegate.m in Sources */,
+				8154DD0214BFAA5B00DE7A22 /* DecodeJP2ToBBB.cpp in Sources */,
+				8154DD0314BFAA5B00DE7A22 /* DecodeJP2ToJPG.cpp in Sources */,
+				8154DD0414BFAA5B00DE7A22 /* DecodeJP2ToMemory.cpp in Sources */,
+				8154DD0514BFAA5B00DE7A22 /* DecodeMrSIDLidar.cpp in Sources */,
+				8154DD0614BFAA5B00DE7A22 /* DecodeMrSIDToMemory.cpp in Sources */,
+				8154DD0714BFAA5B00DE7A22 /* DecodeMrSIDToRaw.cpp in Sources */,
+				8154DD0814BFAA5B00DE7A22 /* DecodeMrSIDToTIFF.cpp in Sources */,
+				8154DD0914BFAA5B00DE7A22 /* DecodeNITFToBBB.cpp in Sources */,
+				8154DD0A14BFAA5B00DE7A22 /* DerivedImageFilter.cpp in Sources */,
+				8154DD0B14BFAA5B00DE7A22 /* DerivedImageReader.cpp in Sources */,
+				8154DD0C14BFAA5B00DE7A22 /* DerivedImageWriter.cpp in Sources */,
+				8154DD0D14BFAA5B00DE7A22 /* DerivedStream.cpp in Sources */,
+				8154DD0E14BFAA5B00DE7A22 /* ErrorHandling.cpp in Sources */,
+				8154DD0F14BFAA5B00DE7A22 /* GeoScene.cpp in Sources */,
+				8154DD1014BFAA5B00DE7A22 /* ImageInfo.cpp in Sources */,
+				8154DD1114BFAA5B00DE7A22 /* InterruptDelegate.cpp in Sources */,
+				8154DD1314BFAA5B00DE7A22 /* MetadataDump.cpp in Sources */,
+				8154DD1414BFAA5B00DE7A22 /* Mosaic.cpp in Sources */,
+				8154DD1514BFAA5B00DE7A22 /* Pipeline.cpp in Sources */,
+				8154DD1614BFAA5B00DE7A22 /* ProgressDelegate.cpp in Sources */,
+				8154DD1714BFAA5B00DE7A22 /* SceneBuffer.cpp in Sources */,
+				8154DD1814BFAA5B00DE7A22 /* support.cpp in Sources */,
+				8154DD1914BFAA5B00DE7A22 /* UserTest.cpp in Sources */,
+				8154DD1A14BFAA5B00DE7A22 /* UsingCInterface.c in Sources */,
+				8154DD1B14BFAA5B00DE7A22 /* UsingCStream.c in Sources */,
+				8154DD1C14BFAA5B00DE7A22 /* UsingStreams.cpp in Sources */,
+				8154DD1F14BFAB0900DE7A22 /* ViewController.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81D78C0814BFA79400F9D78B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D78C0914BFA79400F9D78B /* en */,
+			);
+			name = InfoPlist.strings;
+			path = ios;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81D78C1114BFA79500F9D78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../include;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81D78C1214BFA79500F9D78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../include;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81D78C1414BFA79500F9D78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios/RasterExample-Prefix.pch";
+				INFOPLIST_FILE = "ios/RasterExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../lib\"",
+					"\"$(SRCROOT)/../../3rd-party/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81D78C1514BFA79500F9D78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios/RasterExample-Prefix.pch";
+				INFOPLIST_FILE = "ios/RasterExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../lib\"",
+					"\"$(SRCROOT)/../../3rd-party/lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81D78BF514BFA79400F9D78B /* Build configuration list for PBXProject "RasterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D78C1114BFA79500F9D78B /* Debug */,
+				81D78C1214BFA79500F9D78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D78C1314BFA79500F9D78B /* Build configuration list for PBXNativeTarget "RasterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D78C1414BFA79500F9D78B /* Debug */,
+				81D78C1514BFA79500F9D78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81D78BF214BFA79400F9D78B /* Project object */;
+}

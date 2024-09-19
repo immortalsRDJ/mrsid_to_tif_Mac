@@ -1,0 +1,25 @@
+var examples =
+[
+    [ "DecodeJP2ToBBB.cpp", "a00002.html", null ],
+    [ "DecodeJP2ToJPG.cpp", "a00004.html", null ],
+    [ "DecodeJP2ToMemory.cpp", "a00006.html", null ],
+    [ "DecodeMrSIDBandSelection.cpp", "a00008.html", null ],
+    [ "DecodeMrSIDToMemory.cpp", "a00010.html", null ],
+    [ "DecodeMrSIDToRaw.cpp", "a00012.html", null ],
+    [ "DecodeMrSIDToTIFF.cpp", "a00014.html", null ],
+    [ "DerivedImageFilter.cpp", "a00016.html", null ],
+    [ "DerivedImageReader.cpp", "a00018.html", null ],
+    [ "DerivedImageWriter.cpp", "a00020.html", null ],
+    [ "DerivedStream.cpp", "a00022.html", null ],
+    [ "ErrorHandling.cpp", "a00024.html", null ],
+    [ "GeoScene.cpp", "a00026.html", null ],
+    [ "ImageInfo.cpp", "a00028.html", null ],
+    [ "InterruptDelegate.cpp", "a00030.html", null ],
+    [ "MetadataDump.cpp", "a00032.html", null ],
+    [ "Pipeline.cpp", "a00034.html", null ],
+    [ "ProgressDelegate.cpp", "a00036.html", null ],
+    [ "SceneBuffer.cpp", "a00038.html", null ],
+    [ "UsingCInterface.c", "a00040.html", null ],
+    [ "UsingCStream.c", "a00042.html", null ],
+    [ "UsingStreams.cpp", "a00044.html", null ]
+];

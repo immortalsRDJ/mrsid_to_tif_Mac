@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8154DD1F14BFAB0900DE7A22 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8154DD1E14BFAB0900DE7A22 /* ViewController.mm */; };
+		8154DD2914BFB86100DE7A22 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 8154DD2814BFB86100DE7A22 /* data */; };
+		81C69D1814C0F20B00AA8541 /* DecodeMG4ToTXT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81C69D0F14C0F20B00AA8541 /* DecodeMG4ToTXT.cpp */; };
+		81C69D1914C0F20B00AA8541 /* DecodeMrSIDRaster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81C69D1014C0F20B00AA8541 /* DecodeMrSIDRaster.cpp */; };
+		81C69D1A14C0F20B00AA8541 /* DumpMG4Info.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81C69D1114C0F20B00AA8541 /* DumpMG4Info.cpp */; };
+		81C69D1B14C0F20B00AA8541 /* IterateOverPoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81C69D1214C0F20B00AA8541 /* IterateOverPoints.cpp */; };
+		81C69D1C14C0F20B00AA8541 /* support.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81C69D1414C0F20B00AA8541 /* support.cpp */; };
+		81C69D1D14C0F20B00AA8541 /* UserTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81C69D1614C0F20B00AA8541 /* UserTest.cpp */; };
+		81C69D1E14C0F20B00AA8541 /* UserTutorial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81C69D1714C0F20B00AA8541 /* UserTutorial.cpp */; };
+		81C69D2014C0F75700AA8541 /* liblti_lidar_dsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C69D1F14C0F75700AA8541 /* liblti_lidar_dsdk.a */; };
+		81D78C0014BFA79400F9D78B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D78BFF14BFA79400F9D78B /* UIKit.framework */; };
+		81D78C0214BFA79400F9D78B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D78C0114BFA79400F9D78B /* Foundation.framework */; };
+		81D78C0414BFA79400F9D78B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D78C0314BFA79400F9D78B /* CoreGraphics.framework */; };
+		81D78C0A14BFA79400F9D78B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81D78C0814BFA79400F9D78B /* InfoPlist.strings */; };
+		81D78C0C14BFA79400F9D78B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D78C0B14BFA79400F9D78B /* main.m */; };
+		81D78C1014BFA79500F9D78B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81D78C0F14BFA79500F9D78B /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8154DD1D14BFAB0900DE7A22 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ios/ViewController.h; sourceTree = SOURCE_ROOT; };
+		8154DD1E14BFAB0900DE7A22 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ViewController.mm; path = ios/ViewController.mm; sourceTree = SOURCE_ROOT; };
+		8154DD2814BFB86100DE7A22 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../data; sourceTree = SOURCE_ROOT; };
+		81C69D0F14C0F20B00AA8541 /* DecodeMG4ToTXT.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DecodeMG4ToTXT.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		81C69D1014C0F20B00AA8541 /* DecodeMrSIDRaster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DecodeMrSIDRaster.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		81C69D1114C0F20B00AA8541 /* DumpMG4Info.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DumpMG4Info.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		81C69D1214C0F20B00AA8541 /* IterateOverPoints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = IterateOverPoints.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		81C69D1314C0F20B00AA8541 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		81C69D1414C0F20B00AA8541 /* support.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = support.cpp; sourceTree = "<group>"; };
+		81C69D1514C0F20B00AA8541 /* support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = support.h; sourceTree = "<group>"; };
+		81C69D1614C0F20B00AA8541 /* UserTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserTest.cpp; sourceTree = "<group>"; };
+		81C69D1714C0F20B00AA8541 /* UserTutorial.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = UserTutorial.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		81C69D1F14C0F75700AA8541 /* liblti_lidar_dsdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblti_lidar_dsdk.a; path = ../../lib/liblti_lidar_dsdk.a; sourceTree = SOURCE_ROOT; };
+		81D78BFB14BFA79400F9D78B /* LidarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LidarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D78BFF14BFA79400F9D78B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81D78C0114BFA79400F9D78B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81D78C0314BFA79400F9D78B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81D78C0714BFA79400F9D78B /* LidarExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "LidarExample-Info.plist"; path = "ios/LidarExample-Info.plist"; sourceTree = SOURCE_ROOT; };
+		81D78C0914BFA79400F9D78B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81D78C0B14BFA79400F9D78B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ios/main.m; sourceTree = SOURCE_ROOT; };
+		81D78C0D14BFA79400F9D78B /* LidarExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LidarExample-Prefix.pch"; path = "ios/LidarExample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		81D78C0E14BFA79500F9D78B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ios/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		81D78C0F14BFA79500F9D78B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ios/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81D78BF814BFA79400F9D78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81C69D2014C0F75700AA8541 /* liblti_lidar_dsdk.a in Frameworks */,
+				81D78C0014BFA79400F9D78B /* UIKit.framework in Frameworks */,
+				81D78C0214BFA79400F9D78B /* Foundation.framework in Frameworks */,
+				81D78C0414BFA79400F9D78B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8154DCE314BFA9E400DE7A22 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				81C69D0F14C0F20B00AA8541 /* DecodeMG4ToTXT.cpp */,
+				81C69D1014C0F20B00AA8541 /* DecodeMrSIDRaster.cpp */,
+				81C69D1114C0F20B00AA8541 /* DumpMG4Info.cpp */,
+				81C69D1214C0F20B00AA8541 /* IterateOverPoints.cpp */,
+				81C69D1314C0F20B00AA8541 /* main.h */,
+				81C69D1414C0F20B00AA8541 /* support.cpp */,
+				81C69D1514C0F20B00AA8541 /* support.h */,
+				81C69D1614C0F20B00AA8541 /* UserTest.cpp */,
+				81C69D1714C0F20B00AA8541 /* UserTutorial.cpp */,
+			);
+			name = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		81D78BF014BFA79400F9D78B = {
+			isa = PBXGroup;
+			children = (
+				8154DD2814BFB86100DE7A22 /* data */,
+				8154DCE314BFA9E400DE7A22 /* src */,
+				81D78C0514BFA79400F9D78B /* ios */,
+				81D78BFE14BFA79400F9D78B /* Frameworks */,
+				81D78BFC14BFA79400F9D78B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81D78BFC14BFA79400F9D78B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81D78BFB14BFA79400F9D78B /* LidarExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81D78BFE14BFA79400F9D78B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81C69D1F14C0F75700AA8541 /* liblti_lidar_dsdk.a */,
+				81D78BFF14BFA79400F9D78B /* UIKit.framework */,
+				81D78C0114BFA79400F9D78B /* Foundation.framework */,
+				81D78C0314BFA79400F9D78B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81D78C0514BFA79400F9D78B /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				81D78C0E14BFA79500F9D78B /* AppDelegate.h */,
+				81D78C0F14BFA79500F9D78B /* AppDelegate.m */,
+				8154DD1D14BFAB0900DE7A22 /* ViewController.h */,
+				8154DD1E14BFAB0900DE7A22 /* ViewController.mm */,
+				81D78C0614BFA79400F9D78B /* Supporting Files */,
+			);
+			name = ios;
+			path = LidarExample;
+			sourceTree = SOURCE_ROOT;
+		};
+		81D78C0614BFA79400F9D78B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81D78C0714BFA79400F9D78B /* LidarExample-Info.plist */,
+				81D78C0814BFA79400F9D78B /* InfoPlist.strings */,
+				81D78C0B14BFA79400F9D78B /* main.m */,
+				81D78C0D14BFA79400F9D78B /* LidarExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81D78BFA14BFA79400F9D78B /* LidarExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81D78C1314BFA79500F9D78B /* Build configuration list for PBXNativeTarget "LidarExample" */;
+			buildPhases = (
+				81D78BF714BFA79400F9D78B /* Sources */,
+				81D78BF814BFA79400F9D78B /* Frameworks */,
+				81D78BF914BFA79400F9D78B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LidarExample;
+			productName = LidarExample;
+			productReference = 81D78BFB14BFA79400F9D78B /* LidarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81D78BF214BFA79400F9D78B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = LizardTech;
+			};
+			buildConfigurationList = 81D78BF514BFA79400F9D78B /* Build configuration list for PBXProject "LidarExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 81D78BF014BFA79400F9D78B;
+			productRefGroup = 81D78BFC14BFA79400F9D78B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81D78BFA14BFA79400F9D78B /* LidarExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81D78BF914BFA79400F9D78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D78C0A14BFA79400F9D78B /* InfoPlist.strings in Resources */,
+				8154DD2914BFB86100DE7A22 /* data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81D78BF714BFA79400F9D78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D78C0C14BFA79400F9D78B /* main.m in Sources */,
+				81D78C1014BFA79500F9D78B /* AppDelegate.m in Sources */,
+				8154DD1F14BFAB0900DE7A22 /* ViewController.mm in Sources */,
+				81C69D1814C0F20B00AA8541 /* DecodeMG4ToTXT.cpp in Sources */,
+				81C69D1914C0F20B00AA8541 /* DecodeMrSIDRaster.cpp in Sources */,
+				81C69D1A14C0F20B00AA8541 /* DumpMG4Info.cpp in Sources */,
+				81C69D1B14C0F20B00AA8541 /* IterateOverPoints.cpp in Sources */,
+				81C69D1C14C0F20B00AA8541 /* support.cpp in Sources */,
+				81C69D1D14C0F20B00AA8541 /* UserTest.cpp in Sources */,
+				81C69D1E14C0F20B00AA8541 /* UserTutorial.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81D78C0814BFA79400F9D78B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81D78C0914BFA79400F9D78B /* en */,
+			);
+			name = InfoPlist.strings;
+			path = ios;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81D78C1114BFA79500F9D78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../include;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81D78C1214BFA79500F9D78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../include;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81D78C1414BFA79500F9D78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios/LidarExample-Prefix.pch";
+				INFOPLIST_FILE = "ios/LidarExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81D78C1514BFA79500F9D78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ios/LidarExample-Prefix.pch";
+				INFOPLIST_FILE = "ios/LidarExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../lib\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81D78BF514BFA79400F9D78B /* Build configuration list for PBXProject "LidarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D78C1114BFA79500F9D78B /* Debug */,
+				81D78C1214BFA79500F9D78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81D78C1314BFA79500F9D78B /* Build configuration list for PBXNativeTarget "LidarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81D78C1414BFA79500F9D78B /* Debug */,
+				81D78C1514BFA79500F9D78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81D78BF214BFA79400F9D78B /* Project object */;
+}
